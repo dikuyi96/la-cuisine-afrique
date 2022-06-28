@@ -9,4 +9,48 @@
 body {
     font-family: 'Fauna One', serif;
     font-weight: 400;
+    color: #3a3b3c;
+}
+
+/* styles for headings and logo */
+
+h1, h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    letter-spacing: 2px;
+    color: #006600;
+}
+
+#logo {
+    float: left;
+    font-size: 260%;
+}
+
+/* styles for navigation links */
+
+#menue {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+#menue, #logo {
+    line-height: 60px;
+}
+
+#menue li {
+    float: right;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menue a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menue a:hover {
+    font-weight: 720;
+}
+
+.current {
+    border-bottom: 2px solid #006600;
 }
