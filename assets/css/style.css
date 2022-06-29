@@ -40,6 +40,7 @@ h1, h2 {
     float: right;
     list-style-type: none;
     margin-right: 25px;
+    margin-bottom: 50px;
 }
 
 #menue a {
@@ -53,4 +54,48 @@ h1, h2 {
 
 .current {
     border-bottom: 2px solid #006600;
+}
+
+/* styles for picture gallery using flexbox method so that it is responisve across multiple devices */
+
+#wrapper-1 {
+    clear: both;
+    margin-top: 10%;
+    margin-left: 50%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 600px;
+}
+
+#wrapper-2 {
+    clear: both;
+    margin-left: 50%;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 600px;
+}
+
+img {
+    flex: 1;
+    height: 250px;
+    width: 250px;
+}
+
+.item-1{
+    margin-top: 0px;
+    height: 250px;
+    width: 250px;
+
+}
+
+
+.item-2 {
+    margin-top: 0px;
+    height: 250px;
+    width: 250px;
+    
 }
